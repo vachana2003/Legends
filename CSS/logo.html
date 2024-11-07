@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    nav{
+        height:100px;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color:white;
+    }
+    #content{
+        display: flex;
+        width:30%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    nav h1{
+        color: orange;
+    }
+    #content+#cart{
+        color: orange;
+    }
+    #cart h2{
+        color: blue;
+
+    }
+    #cart+h2{
+        color: azure;
+    }
+    #main{
+        height:600px;
+        width:100%;
+        background-image: url("second\ pic");
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+    }
+    /* body{
+        background-image: url(second\ pic);
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+    } */
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <h1>logo</h1>
+            </div>
+            <!-- ---------------------------------- -->
+            <div id="content">
+                <h1>home</h1>
+                <li><a href="">Services</a></li>
+                <li><a href="">Products</a></li>
+            </div>
+            <!-- ----------------------------------------------- -->
+            <div id="cart">
+                <h2>cart</h2>
+            </div>
+            <!-- ------------------------------------------- -->
+        </nav>
+    </header>
+    <main id="main">
+
+    </main>
+</body>
+</html>

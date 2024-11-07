@@ -1,0 +1,305 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    width:100%;
+    background-color:cadetblue;
+    
+}
+#nav1>ul{
+    list-style:none;
+}
+#div1{
+    background-color: aqua;
+    height:600px;
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-image: url("carousel-02\ \(1\).jpg");
+    background-size: cover;
+    border-color: 1px solid black;
+    top:20%;
+}
+#parent{
+    
+    height:500px;
+    width:100%;
+    background-color: aqua;
+    display: flex;
+    justify-content:first baseline;
+    position:absolut;
+    top:20px;
+}
+#child1{
+    
+    height:500px;
+    width:50%;
+    background-color: blue;
+    justify-content:first baseline;
+    display: flex;
+    position: relative;
+
+    
+}
+#first{
+    height:250px;
+    width:40%;
+    background-image: url("./react");
+    background-size: cover;
+    border:2px solid black;
+    height: 250px;
+    width:50%;
+}
+#second{
+    height:250px;
+    width:40%;
+    background-image: url("nodejs.png");
+    background-size: cover;
+    border:2px solid black;
+    height: 250px;
+    width:50%;
+}
+
+#third{
+    height:250px;
+    width:40%;
+    background-image:url("js1");
+    background-size: cover;
+    top:50%;
+    position: absolute;
+    border:2px solid black;
+    height: 250px;
+    width:50%;
+}
+   
+#fourth{
+    height:250px;
+    width:40%;
+    background-image: url("css");
+    background-size: cover;
+    top:50%;
+    left:379px;
+    position: absolute;
+    border:2px solid black;
+    height: 250px;
+    width:50%;
+}
+#child2{
+    width:50%;
+    height:500px;
+    background-image: url("girl");
+    border-color: black;
+}
+#child3{
+    height:500px;
+    width:100%;
+    background-color:cadetblue;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#first1{
+    position: absolute;
+    top:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:500px;
+}
+#first2{
+    position: absolute;
+    top:170px;
+    left:300px;
+}
+#child4{
+    height:700px;
+    width:100%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+    position: relative;
+}
+#sibling1{
+    top:10%;
+    height:700px;
+    width: 50%;
+    position: absolute;
+    background-image: url("./girl1");
+    height:500px;
+    border:2px solid black;
+}
+#sibling2{
+    top:10%;
+    height:500px;
+    width: 50%;
+    position: absolute;
+    background-color:cadetblue;
+    left: 750px;
+    justify-content: first baseline;
+    border:2px solid black;
+}
+#head{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sibling4{
+    height:250px;
+    width:50%;
+    background-image: url("./wall");
+    width:50%;
+    border:2px solid black;
+    height:250px;
+    position: absolute;
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+#sibling5{
+    height:250px;
+    width:50%;
+    background-image:url("./car");
+    width:50%;
+    left:800px;
+    border:3px solid black;
+    height:250px;
+    position: absolute;
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+
+
+}
+#sibling6{
+    height:250px;
+    width:50%;
+    background-image: url("./car1");
+    width:50%;
+    border:2px solid black;
+    height:250px;
+    top:50%;
+    position: absolute;
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+
+}
+#sibling7{
+    height:250px;
+    width:50%;
+    background-image: url("./window");
+    width:50%;
+    top:50%;
+    left:800px;
+    border:2px solid black;
+    height:250px;
+    position:absolute;
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+#sibling8{
+    height:700px;
+    width:250%;
+    background-color:cadetblue;
+    position:relative;
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+#sibling8>p{
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+#sibling9{
+    height:150px;
+    width:6%;
+    left:500px;
+    background-image: url("linkdin");
+    position: absolute;
+    background-position:15px;
+
+}
+#sibling10{
+
+    height:150px;
+    width:6%;
+    left:700px;
+    background-image: url("./twitter");
+    position: absolute;
+    background-position:0px;
+}
+#sibling11{
+    height:150px;
+    width:6%;
+    left:900px;
+    background-image: url("./youtube");
+    position: absolute;
+    background-position:0px;
+}
+
+#sibling12{
+    height:150px;
+    width:6%;
+    left:1100px;
+    background-image: url("./linkdin");
+    position: absolute;
+    background-position:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sibling13{ top:10%;
+    height:300px;
+    width: 10%;
+    top:40%;
+    position: absolute;
+    background-image: url("./wall");
+    
+}
+#sibling14{
+    top:40%;
+    position: absolute;
+    left:500px;
+    height:300px;
+    width:5%;
+    display: flex;
+    justify-content: first baseline;
+  
+}
+#sibling15{
+    top:40%;
+    position: absolute;
+    left:800px;
+    height:300px;
+    width:8%;
+    background-image: url("world");
+
+}
+#sibling16{
+    top:6%;
+    position: absolute;
+    left:450px;
+    height:280px;
+    width:85%;
+
+
+}
+footer{
+    top
+}
+
+
+

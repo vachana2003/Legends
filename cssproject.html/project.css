@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    height: 45px;
+    }
+    header nav ul{
+    display: flex;
+    margin-left: 80%;
+    }
+    
+    header nav ul li{
+    padding-left: 10%;
+    }
+section{
+    height:100vh;
+    border:1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Cantainer{
+    margin-top: 10%;
+}
+.Container img{
+    height:300px;
+    border-radius: 50%;
+   
+}
+.container h1{
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container p ul{
+    margin-top: 10%;
+    font-size: 1.5rem;
+}
+footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    }
+#intro{
+    background-image: url("../HTML/kingfisher-9016787_640.webp");
+    background-repeat: round;
+    background-size: cover;
+
+}
+#about{
+    background-image: url("../CSS/honey");
+    background-repeat: round;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+    background-image: url("../CSS/honey1");
+    background-size: cover;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        #combinator h1{
+            height:150px;
+            width: 100px;
+            background-color: brown;
+        }
+        #combinator>h1{
+            height:120px;
+            width:60px;
+            background-color: blue;
+        }
+        #combinator+h1{
+            height: 120px;
+            width:120px;
+            background-color: red;
+        }
+        #combinator~h1,h2{
+            height:120px;
+            width:120px;
+            background-color: aqua;
+        }
+
+
+
+    </Style>
+</head>
+<body>
+    <div id="combinator">
+        <div>this is heading</div>
+        <h1>dasara</h1>
+    <section>
+        <h1>Upcoming</h1>
+        <h2>dasara</h2>
+        <h1>go to native</h1>
+        <h1>else</h1>
+        <h1>rod only</h1>
+    </section>
+    </div>
+    <h1>this is adjusant to div</h1>
+    <h2>this is the adjusent to h1</h2>
+    <h1>this is adjusent to h1</h1>
+    
+</body>
+</html>

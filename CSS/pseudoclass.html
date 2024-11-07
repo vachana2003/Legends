@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #link{
+            height: 300px;
+            width: 300px;
+            background-color: chartreuse;
+            /* position: absolute; */
+
+            display: flex;
+            margin: 200px auto;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 10s linear 0.1ms, border-radius 5s linear 2s,transform 10s linear 1s;
+        }
+        body{
+            background-color: black;
+            background-image: url("forest-8647829_640.jpg");
+            background-size: cover;
+        }
+        a{
+           font-size: 50px; 
+           text-decoration: none;
+        }
+        #link:hover{
+            background-color: crimson;
+            border-radius: 50%;
+            /* transform: rotate(360deg); */
+            /* transform: translateX(200px); */
+        }
+        a:link{
+            color: aqua;
+        }
+        a:visited{
+            color: blue;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+        a:active{
+            color: cadetblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo class</h1>
+    <div id="link">
+        <a href="httpx://www.cricbuzz.com">link</a>
+
+    </div>
+</body>
+</html>

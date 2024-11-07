@@ -1,0 +1,117 @@
+From the image you shared, it looks like a whiteboard sketch for a web page layout. There is a "Feedback Form" section and a "Zomato" section with an image placeholder, menu items, and a table structure.
+
+Here is an HTML code to create a basic structure for this page:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .feedback-form {
+            margin-bottom: 30px;
+        }
+        .feedback-form input, .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .zomato-section img {
+            width: 500px;
+            height: 500px;
+        }
+        .menu-section {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Feedback Form</h2>
+    <div class="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback"></textarea>
+
+        <button type="submit">Submit</button>
+    </div>
+
+    <h2>Zomato Section</h2>
+    <div class="zomato-section">
+        <img src="zomato-image.jpg" alt="Zomato image placeholder">
+        <div class="menu-section">
+            <h3>Menu</h3>
+            <div>
+                <strong>Veg</strong>
+                <input type="radio" name="food_type" value="veg">
+                <strong>Non-Veg</strong>
+                <input type="radio" name="food_type" value="non-veg">
+            </div>
+            <table>
+                <tr>
+                    <th>S.No</th>
+                    <th>Item No</th>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>101</td>
+                    <td>Paneer Butter Masala</td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>102</td>
+                    <td>Chicken Biryani</td>
+                    <td>$15.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+Description:
+
+The Feedback Form section has input fields for the user's name and feedback, along with a submit button.
+
+The Zomato Section includes an image placeholder with dimensions 500x500.
+
+Below that, there's a Menu section that allows users to select between Veg and Non-Veg options and displays a table of menu items.
+
+
+Feel free to customize the code further as per your requirements!
